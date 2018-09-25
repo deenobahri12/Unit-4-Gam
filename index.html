@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="assests/css/style.css"> 
+	<title>Crystal Game</title>
+</head>
+<body class="wallpaper">
+	
+		<div class="container">
+		<nav><div class="row">
+				<h1 class="header">Crystals Game!</h1>
+			</div></nav>
+				<div class="row">
+					<div class="col-lg-6 instruction" > 
+                        <p class="p">You'll be assigned a random number.</p>
+                        <p  class="p">The four crystals below each have a specific value. Clicking on a crystal will add to your total score</p>
+						<p  class="p">You must have your total score match your randomly assigned number, you lose the game if you're not able to match the assigned number.</p>
+						<p  class="p">The values of each crystal is unknown until you click on them.</p>
+						<p  class="p">Each time when the game starts, the game will change the values of each crystal.</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 randomNumber">Random Number</div>
+					<div class = "col-lg-1"></div>
+					<div class="col-lg-2 totalWL">
+						<div class="row-wins">Wins</div>
+						<div class="row-losses">Losses</div>
+					</div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-lg-3 gems">
+						<div id="img1"></div>
+					</div>
+					<div class="col-lg-3">
+						<div id="img2"></div>
+					</div>
+					<div class="col-lg-3">
+						<div id="img3"></div>
+					</div>
+					<div class="col-lg-3">
+						<div id="img4"></div>
+					</div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-lg-6 totalScore">Your total score is</div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-lg-6 scoreDisplay">Your Score</div>
+				</div>
+		</div>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assests/javascript/game.js"></script>
+</body>
+</html>

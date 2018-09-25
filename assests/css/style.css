@@ -1,0 +1,41 @@
+.header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}
+
+.row{
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: bisque;
+    
+}
+
+.p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.wallpaper {
+    text-align: center;
+}
+
+
+
+.wins, .losses { 
+	padding: 2%;
+	color: brown;
+  }
+
+
